@@ -117,3 +117,107 @@
 .features p {
   font-size: 20px;
 }
+/* impact on environment */
+#ImpactOnEnvirontment {
+  width: 100%;
+  background-color: #efefef;
+  margin-top: -30px;
+  height: 95vw;
+}
+.ImpactEnvironment-box {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 80%;
+}
+.single-impact {
+  text-align: center;
+  flex-basis: 48%;
+  margin-bottom: 30px;
+  color: #303030;
+  height: 270px;
+}
+.single-impact img {
+  width: 100%;
+  height: 270px;
+  border-radius: 5px;
+}
+.overlay {
+  cursor: pointer;
+  border-radius: 7px;
+  margin-top: -280px;
+  background: linear-gradient(
+    1200deg,
+    #61d70cc1 0%,
+    #0fc963c4 38%,
+    #00d5ffc2 100%
+  );
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: relative;
+}
+.single-impact:hover .overlay {
+  opacity: 1;
+}
+.impact-description {
+  left: 10%;
+  position: relative;
+  width: 80%;
+  margin-top: -40px;
+  bottom: 0;
+  transition: bottom 1s;
+  opacity: 0;
+}
+.single-impact:hover .impact-description {
+  bottom: 40%;
+  opacity: 1;
+}
+/* Testimonial from Enviromentalist */
+#testimonial {
+  width: 100%;
+  padding: 70px 0;
+  margin-top: -250px;
+}
+.testimonial-row {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.testimonial-col {
+  transition: transform 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 3px #61d70cc1;
+  padding: 10px;
+  margin-bottom: 30px;
+  flex-basis: 28%;
+}
+.testimonial-col:hover {
+  transform: translateY(-16px);
+}
+.testimonial-col p {
+  font-size: 17px;
+}
+.user img {
+  width: 40px;
+  border-radius: 3px;
+}
+.user-info .fab {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.user-info a {
+  text-decoration: none;
+  font-size: larger;
+  color: #1eb300;
+}
+.user-info .fa-instagram {
+  color: #ed29bf;
+}
+.user-info .fa-twitter {
+  color: #0066ff;
+}
