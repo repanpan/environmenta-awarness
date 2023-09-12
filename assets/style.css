@@ -6,7 +6,7 @@
 #banner {
   height: 700px;
   background: linear-gradient(#0000001a, #1eb300),
-    url(/assets/images/banner.jpg);
+    url(./assets/images/banner.jpg);
   background-size: cover;
   background-position: center;
 }
