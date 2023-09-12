@@ -221,3 +221,33 @@
 .user-info .fa-twitter {
   color: #0066ff;
 }
+/* footer */
+#footer {
+  background: #e4e1e1;
+  padding: 10px 0 20px;
+  margin-top: -30px;
+}
+.footer-row {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-img {
+  position: absolute;
+  left: 35%;
+  opacity: 0.3;
+  width: 370px;
+}
+.footer-row h1 {
+  color: #0066ff;
+  margin-bottom: 10px;
+}
+.footer-row i {
+  color: #1eb300;
+}
+.footer-right a {
+  text-decoration: none;
+  color: #0066ff;
+}
