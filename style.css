@@ -117,11 +117,11 @@
   font-size: 20px;
 }
 /* impact on environment */
-#ImpactOnEnvirontment {
+#ImpactOnEnvironment {
   width: 100%;
   background-color: #efefef;
   margin-top: -30px;
-  height: 95vw;
+  height: 85vw;
 }
 .ImpactEnvironment-box {
   justify-content: space-around;
@@ -177,7 +177,7 @@
 #testimonial {
   width: 100%;
   padding: 70px 0;
-  margin-top: -250px;
+  margin-top: -400px;
 }
 .testimonial-row {
   flex-wrap: wrap;
@@ -194,6 +194,7 @@
   padding: 10px;
   margin-bottom: 30px;
   flex-basis: 28%;
+  margin-top: 30px;
 }
 .testimonial-col:hover {
   transform: translateY(-16px);
